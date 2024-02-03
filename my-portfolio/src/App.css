@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  section{
+      @apply   mx-auto px-5  mb-32
+  }
+}
+
+.main-heading {
+  @apply text-xl md:text-2xl text-indigo-700 font-bold font-[Arial] mb-5 md:text-center dark:text-indigo-300
+}
+
+.secondary-heading {
+  @apply text-base md:text-xl font-semibold dark:text-blue-400 text-blue-700 mt-2
+}
