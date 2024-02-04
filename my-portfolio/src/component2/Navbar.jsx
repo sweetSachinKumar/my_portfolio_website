@@ -67,7 +67,7 @@ const [darkBG, setDarkBG] = useState(false)
                         socialLinks.map(socilIcon => {
                             return (
                                 <li>
-  <a href={`#${socilIcon.goto}`}  className='text-sm p-3 rounded-full hover:bg-indigo-500 hover:text-white block text-slate-700 bg-slate-200 duration-300 '>{socilIcon.text}</a>
+  <a href={`${socilIcon.goto}`}  className='text-sm p-3 rounded-full hover:bg-indigo-500 hover:text-white block text-slate-700 bg-slate-200 duration-300 '>{socilIcon.text}</a>
                                     </li>
                             )
                         })

@@ -1,7 +1,7 @@
 
 import weatherThumbnail from "./assets/weatherThumb.jpg"
 import NewsThumbnail from "./assets/newsThumbnail.png"
-import eccomerceThumbnail from "./assets/eccomerThumbnail2.png"
+import eccomerceThumbnail from "./assets/miniecommerceThum.png"
 import amazonThumbnail from "./assets/amazonThum.png"
 import mernThumbnail from "./assets/mernThum.png"
 
