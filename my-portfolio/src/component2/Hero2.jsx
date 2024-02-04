@@ -1,10 +1,10 @@
 import { GoDownload } from 'react-icons/go'
-import myCv from './data/assets/CV3.pdf'
+import myCv from './data/assets/skMorderResume.pdf'
 import HeaderImg from '../img/img2.svg'
 
 const Hero2 = () => {
     return (
-        <header id='home' className='text-white w-full mb-16  bg-indigo-700 dark:bg-indigo-800'>
+        <header id='Home' className='text-white w-full mb-16  bg-indigo-700 dark:bg-indigo-800'>
 
             <div className=''>
                 <div className=' items-center   justify-around flex flex-col py-16  md:flex-row max-w-[1440px] flex-wrap mx-auto min-h-[450px]'>

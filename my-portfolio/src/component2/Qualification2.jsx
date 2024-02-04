@@ -5,7 +5,7 @@ import { FaGreaterThan } from 'react-icons/fa'
 
 const Qualification2 = () => {
     return (
-        <section id='qualification' className='section  '>
+        <section id='Qualification' className='section  '>
             <h3 className='main-heading' >My Qualification</h3>
             <div>
 

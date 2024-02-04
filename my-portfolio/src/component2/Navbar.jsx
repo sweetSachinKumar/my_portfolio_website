@@ -33,16 +33,19 @@ const [darkBG, setDarkBG] = useState(false)
 
       case 'light':
         document.documentElement.classList.remove('dark')
+        document.body.style.backgroundColor = "#fff"
         localStorage.setItem("theme", theme)
         break;
 
       case 'moon':
         document.documentElement.classList.add('dark')
+        document.body.style.backgroundColor = "rgb(2 6 23)"
         localStorage.setItem("theme", theme)
         break;
 
       default:
         localStorage.removeItem("theme")
+        document.body.style.backgroundColor = "#fff"
 
         break;
 
@@ -64,7 +67,7 @@ const [darkBG, setDarkBG] = useState(false)
                         socialLinks.map(socilIcon => {
                             return (
                                 <li>
-  <a href='#'  className='text-sm p-3 rounded-full hover:bg-indigo-500 hover:text-white block text-slate-700 bg-slate-200 duration-300 '>{socilIcon.text}</a>
+  <a href={`#${socilIcon.text}`}  className='text-sm p-3 rounded-full hover:bg-indigo-500 hover:text-white block text-slate-700 bg-slate-200 duration-300 '>{socilIcon.text}</a>
                                     </li>
                             )
                         })

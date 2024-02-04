@@ -5,7 +5,7 @@ import { ProLanguage } from './data/SampleData'
 const Service2 = () => {
 
     return (
-        <section id='service' className='section'>
+        <section id='Service' className='section'>
             <h3 className='main-heading'>Frontend Web Developer</h3>
             <p className='sm:text-xl text-neutral-800 dark:text-slate-200 leading-tight px-2 '>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
 

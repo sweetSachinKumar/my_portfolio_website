@@ -3,12 +3,13 @@ import weatherThumbnail from "./assets/weatherThumb.jpg"
 import NewsThumbnail from "./assets/newsThumbnail.png"
 import eccomerceThumbnail from "./assets/eccomerThumbnail2.png"
 import amazonThumbnail from "./assets/amazonThum.png"
+import mernThumbnail from "./assets/mernThum.png"
 
 
 export const ReactjsProject = [
     {
         githubLink:"https://github.com/sweetSachinKumar/weather",
-        webLinkToGo:"#",
+        webLinkToGo: null,
         thumbnail: weatherThumbnail,
         ytVideoID:"oJM7v0Jpn3E",
         title:"Weather Website",
@@ -24,7 +25,7 @@ export const ReactjsProject = [
     },
     {
         githubLink:"https://github.com/sweetSachinKumar/newslollypop",
-      
+        webLinkToGo: null,
         thumbnail: NewsThumbnail,
         ytVideoID:null,
         title:"News Website",
@@ -38,7 +39,7 @@ export const ReactjsProject = [
         techUsed: "React.js | Tailwind CSS"
     },
     {
-        githubLink:"",
+        githubLink:"https://github.com/sweetSachinKumar/myshops",
         webLinkToGo:"https://myecomercestore.netlify.app/",
         thumbnail: eccomerceThumbnail,
         ytVideoID:null,
@@ -53,8 +54,7 @@ export const ReactjsProject = [
     },
   
     {
-        webLinkToGo:"https://amazonclons.netlify.app/",
-        webLinkToGo:"https://amazon-clone-eta-kohl.vercel.app/",
+        webLinkToGo:"https://amazonclone-eta-five.vercel.app/",
         thumbnail: amazonThumbnail,
         ytVideoID:null,
         title:"Amazon clone",
@@ -73,8 +73,8 @@ export const ReactjsProject = [
 export const MERNproject = [
     {
         githubLink:"https://github.com/sweetSachinKumar/weather",
-        webLinkToGo:"#",
-        thumbnail: weatherThumbnail,
+        webLinkToGo:"https://last-ecommerce-user-vender.vercel.app/",
+        thumbnail: mernThumbnail,
         ytVideoID:null,
         title:"Weather Website",
         description:"In this weather website you can search any state of country and then you will get all weather information, according to weather icons and background color are also change",
