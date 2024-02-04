@@ -1,10 +1,6 @@
 import React from 'react'
-import { BsCodeSlash } from 'react-icons/bs'
-import { FaCircleArrowLeft } from "react-icons/fa6";
-import { FaArrowCircleRight } from "react-icons/fa";
-import { SlClose } from "react-icons/sl";
-
-import temThum from "../data/assets/amazonThum.png"
+import { BsCodeSlash } from 'react-icons/bs' 
+import { SlClose } from "react-icons/sl"; 
 
 const OverLayDetail = ({ openOvl, setOpenOvl, data }) => {
   const embedId = "oJM7v0Jpn3E"
