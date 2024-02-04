@@ -76,7 +76,7 @@ export const MERNproject = [
         webLinkToGo:"https://last-ecommerce-user-vender.vercel.app/",
         thumbnail: mernThumbnail,
         ytVideoID:null,
-        title:"Weather Website",
+        title:"Sachin's store",
         description:"In this weather website you can search any state of country and then you will get all weather information, according to weather icons and background color are also change",
 
         features: [

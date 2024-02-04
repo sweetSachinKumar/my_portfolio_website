@@ -67,7 +67,7 @@ const [darkBG, setDarkBG] = useState(false)
                         socialLinks.map(socilIcon => {
                             return (
                                 <li>
-  <a href={`#${socilIcon.text}`}  className='text-sm p-3 rounded-full hover:bg-indigo-500 hover:text-white block text-slate-700 bg-slate-200 duration-300 '>{socilIcon.text}</a>
+  <a href={`#${socilIcon.goto}`}  className='text-sm p-3 rounded-full hover:bg-indigo-500 hover:text-white block text-slate-700 bg-slate-200 duration-300 '>{socilIcon.text}</a>
                                     </li>
                             )
                         })
@@ -82,9 +82,11 @@ const [darkBG, setDarkBG] = useState(false)
             {
                 navOps.map((item, index) => {
                     return (
-                        <li className='flex gap-3 items-center group  px-1 py-2' key={index}>
+                      <li>
+                        <a href={`#${item.text}`} className='flex gap-3 items-center group  px-1 py-2' key={index}>
                         <i className='text-slate-700 text-2xl dark:text-slate-100 group-hover:text-indigo-500 duration-300'>{item.icon}</i>
                          <span className='text-slate-600 text-base font-semibold dark:text-slate-200 group-hover:text-slate-900  dark:group-hover:text-slate-50 duration-300'>{item.text}</span>
+                    </a>
                     </li>
                     )
                 })

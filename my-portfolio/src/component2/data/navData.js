@@ -33,8 +33,8 @@ export const navOps = [
 ]
 
 export const socialLinks = [
-    { text: <FaFacebookF />, goto: "/" },
-    { text: <FaInstagram />, goto: "/" },
-    { text: <FaGithub />, goto: "/" },
-    { text: <FaLinkedinIn />, goto: "/" },
+    { text: <FaFacebookF />, goto: "https://www.facebook.com/profile.php?id=100031395428219" },
+    { text: <FaInstagram />, goto: "https://www.instagram.com/sachinwebmern369/" },
+    { text: <FaGithub />, goto: "https://github.com/sweetSachinKumar" },
+    { text: <FaLinkedinIn />, goto: "https://www.linkedin.com/in/sachin-kumar-2728b4287/" },
 ]
