@@ -7,37 +7,7 @@ import mernThumbnail from "./assets/mernThum.png"
 
 
 export const ReactjsProject = [
-    {
-        githubLink:"https://github.com/sweetSachinKumar/weather",
-        webLinkToGo: null,
-        thumbnail: weatherThumbnail,
-        ytVideoID:"oJM7v0Jpn3E",
-        title:"Weather Website",
-        description:"In this weather website you can search any state of country and then you will get all weather information, according to weather icons and background color are also change",
-        features: [
-            "search funcationality.",
-            "fetching data from a api.",
-            "changing color according to weather status.",
-            "you can see real time, weather teprature etc."
-        ],
-        techUsed: "React.js | Tailwind CSS"
-
-    },
-    {
-        githubLink:"https://github.com/sweetSachinKumar/newslollypop",
-        webLinkToGo: null,
-        thumbnail: NewsThumbnail,
-        ytVideoID:null,
-        title:"News Website",
-        description:"In this News Website you can read any news. first of all when website load, you will see a nice top bar with loading icon. second of all you will see a side bar where you can choose any news category and then you will see News of that category. Last but not least, in this website you can scroll infinitely as much as data is in there. ",
-        features: [" Infinite scrolling functionality",
-            "In this News Website you can read any type of news.",
-            "top loading bar and loading icon functionality.",
-            "In side bar you can choose any news category and then you will see News of that category",
-           
-        ],
-        techUsed: "React.js | Tailwind CSS"
-    },
+  
     {
         githubLink:"https://github.com/sweetSachinKumar/myshops",
         webLinkToGo:"https://myecomercestore.netlify.app/",
@@ -67,12 +37,43 @@ export const ReactjsProject = [
         techUsed: "React.js | Tailwind CSS"
 
     },
+    {
+        githubLink:"https://github.com/sweetSachinKumar/weather",
+        webLinkToGo: null,
+        thumbnail: weatherThumbnail,
+        ytVideoID:"55tIPpf-ZM8",
+        title:"Weather Website",
+        description:"In this weather website you can search any state of country and then you will get all weather information, according to weather icons and background color are also change",
+        features: [
+            "search funcationality.",
+            "fetching data from a api.",
+            "changing color according to weather status.",
+            "you can see real time, weather teprature etc."
+        ],
+        techUsed: "React.js | Tailwind CSS"
+
+    },
+    {
+        githubLink:"https://github.com/sweetSachinKumar/newslollypop",
+        webLinkToGo: null,
+        thumbnail: NewsThumbnail,
+        ytVideoID:null,
+        title:"News Website",
+        description:"In this News Website you can read any news. first of all when website load, you will see a nice top bar with loading icon. second of all you will see a side bar where you can choose any news category and then you will see News of that category. Last but not least, in this website you can scroll infinitely as much as data is in there. ",
+        features: [" Infinite scrolling functionality",
+            "In this News Website you can read any type of news.",
+            "top loading bar and loading icon functionality.",
+            "In side bar you can choose any news category and then you will see News of that category",
+           
+        ],
+        techUsed: "React.js | Tailwind CSS"
+    },
     
 ]
 
 export const MERNproject = [
     {
-        githubLink:"https://github.com/sweetSachinKumar/weather",
+        githubLink:"https://github.com/sweetSachinKumar/Last-ecommerce_user_vender",
         webLinkToGo:"https://last-ecommerce-user-vender.vercel.app/",
         thumbnail: mernThumbnail,
         ytVideoID:null,

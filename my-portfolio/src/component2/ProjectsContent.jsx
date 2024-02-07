@@ -26,7 +26,7 @@ const productDtl = (datas)=> {
       <ProjectNavigation projId={projId} setProjId={setProjId} />
 {/* <MERNProjectDetail/> */}
 {(openOvl && productDTL) && <OverLayDetail setOpenOvl={setOpenOvl} openOvl={openOvl} data={productDTL}/>}
-      <div className='grid w-8/12 mx-auto sm:w-auto sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-2  gap-x-3 gap-y-5 mt-10 '>
+      <div className='grid w-full mx-auto sm:w-auto sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-2  sm:gap-x-3 gap-y-5 mt-10 '>
 
     {  projId === 1 && ( <>
         {  allProject?.map((data, i) =>  <ProjectCard key={i} data={data} setOpenOvl={setOpenOvl} productDtl={productDtl}/>)}

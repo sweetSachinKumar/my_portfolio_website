@@ -15,7 +15,7 @@ const ProjectCard = ({ data, setOpenOvl, productDtl }) => {
   }
 
   return (
-    <div className=' group-box shadow-xl shadow-indigo-700/20 hover:shadow-indigo-700/10 overflow-hidden group  border-indigo-600  duration-500 transition-all  relative rounded-md max-w-[400px] w-full'>
+    <div className=' group-box shadow-xl shadow-indigo-700/20 hover:shadow-indigo-700/10 overflow-hidden group  border-indigo-600  duration-500 transition-all  relative rounded-md max-w-[400px] w-[90vw] mx-auto sm:w-full'>
       <img src={thumbnail} className='w-full z-10   h-full object-cover' alt="img" />
 
       <div className='absolute opacity-0 hover:opacity-100 hover:top-0 ease-in-out top-12 duration-500 transition-all left-0 bg-indigo-800/40 h-full w-full flex items-center justify-between pt-10 pb-1 flex-col z-40 '>
