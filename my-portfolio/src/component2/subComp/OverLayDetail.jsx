@@ -8,7 +8,7 @@ const OverLayDetail = ({ openOvl, setOpenOvl, data }) => {
 
   console.log(data)
   return (
-    <div className=''>
+    <>
    
    <div   className={`  overflow-auto duration-300 z-[2240]  fixed top-0  left-0 right-0 w-full h-full flex items-center bg-neutral-900/60`}>
   
@@ -20,7 +20,7 @@ const OverLayDetail = ({ openOvl, setOpenOvl, data }) => {
       </div>
      
   
-    </div>
+    </>
   )
 }
 
